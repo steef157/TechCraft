@@ -1,0 +1,24 @@
+{
+  "parent" : "block/block",
+  "elements" : [
+    {
+      "from" : [ 5, 5, 5 ],
+      "to" : [ 11, 11, 11 ],
+      "faces" : {
+        "down"  : { "uv" : [ 5, 5, 11, 11], "texture" : "techcraft:pipe"},
+        "up"    : { "uv" : [ 5, 5, 11, 11], "texture" : "techcraft:pipe"},
+        "north" : { "uv" : [ 5, 5, 11, 11], "texture" : "techcraft:pipe"},
+        "south" : { "uv" : [ 5, 5, 11, 11], "texture" : "techcraft:pipe"},
+        "east"  : { "uv" : [ 5, 5, 11, 11], "texture" : "techcraft:pipe"},
+        "west"  : { "uv" : [ 5, 5, 11, 11], "texture" : "techcraft:pipe"}
+      }
+    }
+  ],
+  "display": {
+    "thirdperson": {
+      "rotation": [ 10, -45, 170 ],
+      "translation": [ 0, 1.5, -2.75 ],
+      "scale": [ 0.375, 0.375, 0.375 ]
+    }
+  }
+}

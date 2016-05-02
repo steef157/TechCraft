@@ -1,0 +1,86 @@
+{
+    "forge_marker": 1,
+    "defaults" : {
+        "textures" : {
+            "base":  "techcraft:pipe"
+        },
+        "model": "techcraft:pipe"
+    },
+    "variants" : {
+        "straight" : {
+            "true" : {
+
+            },
+            "false" : {
+
+            }
+        },
+        "south" : {
+            "true": {
+                "submodel": "techcraft:pipeConnection",
+                "y": 0
+            },
+            "false": {
+                "submodel": "techcraft:pipe",
+                "y": 0
+            }
+        },
+        "north" : {
+            "true": {
+                "submodel" : "techcraft:pipeConnection",
+                "y" : 180
+            },
+            "false": {
+                "submodel": "techcraft:pipe",
+                "y": 180
+            }
+        },
+        "east" : {
+            "true": {
+                "submodel" : "techcraft:pipeConnection",
+                "y" : 270
+            },
+            "false": {
+                "submodel": "techcraft:pipe",
+                "y": 270
+            }
+        },
+        "west" : {
+            "true": {
+                "submodel" : "techcraft:pipeConnection",
+                "y" : 90
+            },
+            "false": {
+                "submodel": "techcraft:pipe",
+                "y": 90
+            }
+        },
+        "up" : {
+            "true": {
+                "submodel" : "techcraft:pipeConnection",
+                "x" : 90
+            },
+            "false": {
+                "submodel": "techcraft:pipe",
+                "x": 90
+            }
+        },
+        "down" : {
+            "true": {
+                "submodel" : "techcraft:pipeConnection",
+                "x" : 270
+            },
+            "false": {
+                "submodel": "techcraft:pipe",
+                "x": 270
+            }
+        },
+        "inventory": [{
+            "model": "techcraft:pipeItem",
+            "submodel": {
+                "north": { "model": "techcraft:pipeConnection", "y": 180 },
+                "south": { "model": "techcraft:pipeConnection", "y": 0 }
+            }
+        }]
+    }
+}
